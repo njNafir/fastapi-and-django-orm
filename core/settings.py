@@ -124,3 +124,7 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+API_V1_STR: str = "/api/fa/v1"
+WSGI_APP_URL: str = "/web"
+PROJECT_NAME  =  "Django-FastAPI-Combo"
